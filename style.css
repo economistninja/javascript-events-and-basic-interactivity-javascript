@@ -1,0 +1,20 @@
+body.dark-mode {
+    background-color: #2222;
+    color: #ffffff;
+}
+
+#dropzone {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 200px;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+img {
+    width : 100px;
+    height : 100px;
+}

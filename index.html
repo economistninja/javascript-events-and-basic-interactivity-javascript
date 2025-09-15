@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>JavaScript Events</title>
+</head>
+    <body>
+        <! -- Interactive Webpage -->
+        <button onclick= "ToggleTheme()"> Toggle Dark Mode</button>
+        <! -- Drag and Drop -->
+        <div id="dropzone"> drop here</div>
+        <img 
+        src="https://images.pexels.com/photos/33765709/pexels-photo-33765709.jpeg"
+        alt="Draggable Image"
+            id="dragitem"
+            draggable="true">
+
+        <! -- Different Event Handling Methods -->
+        <!-- 1. Inline Method -->
+        <button onclick="alert('Button clicked!')">Click Me (Inline)</button>
+        <button id="myButton">Click Me (DOM) </button>
+        <button id="thirdButton">Click Me (Event Listener) </button>
+        <p id="output">Waiting...</p>
+        <input type="text" id="inputBox" placeholder="Type something..." onfocus="this.style.background='lightblue'" onblur="this.style.background='white'">
+        <p onmouseover="this.style.color='Red'" onmouseout="this.style.color='black'">Hover over me!....</p>
+        
+        <!-- 2. DOM Property Method -->
+        <!-- 3. Event Listener Method -->
+        <script src="Scripts/script.js"></script>
+
+        <!-- 4. Form Validation -->
+         <form onsubmit="return validateForm()">
+            <input type = "text" id="username" placeholder="Username">
+            <input type = "password" id="password" placeholder="Password">
+            <input type = "email" id="email" placeholder="Email">
+            <button type="Submit"> Submit</button>
+         </form>
+        
+
+    </body>
